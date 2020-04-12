@@ -1,0 +1,14 @@
+.travis.yml
+.gitignore
+.svnignore
+^appveyor\.yml$
+^.*\.DS_Store
+TODO.md
+Makefile
+README.Rmd
+^.*\.Rproj$
+^\.Rproj\.user$
+site_src
+^CONDUCT\.md$
+CONTRIBUTORS.md
+CONTRIBUTING.md
