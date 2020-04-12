@@ -6,7 +6,7 @@
 using namespace Rcpp;
 
 // StatRead_cpp
-RcppExport SEXP StatRead_cpp(std::string sample, std::string readfile, Nullable<StringVector> Type);
+Rcpp::List StatRead_cpp(std::string sample, std::string readfile, Nullable<StringVector> Type);
 RcppExport SEXP _rfastqQC_StatRead_cpp(SEXP sampleSEXP, SEXP readfileSEXP, SEXP TypeSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;

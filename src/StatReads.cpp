@@ -8,8 +8,9 @@ using namespace Rcpp;
 // @param Type The type of fastq file. 'raw' or 'clean'.
 //
 // @return A list, contained Q20, Q30, GC, average length and total base of the sample fastq file.
+
 // [[Rcpp::export]]
-RcppExport SEXP StatRead_cpp(std::string sample, std::string readfile, Nullable<StringVector> Type=R_NilValue){
+Rcpp::List StatRead_cpp(std::string sample, std::string readfile, Nullable<StringVector> Type=R_NilValue){
     int num=0;
     double total_base=0;
     double q20_num=0;
@@ -26,7 +27,7 @@ RcppExport SEXP StatRead_cpp(std::string sample, std::string readfile, Nullable<
                 if ((ord - 33) >= 20){
                     q20_num += 1;
                 }
-                if ((ord - 33)>=30){
+                if ((ord - 33) >= 30){
                     q30_num += 1;
                 }
             }
