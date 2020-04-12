@@ -2,7 +2,7 @@ Package: rfastqQC
 Title: The quality evaluation
 Version: 0.0.0.9
 Authors@R: person("Shuangbin", "Xu", email = "xshuangbin@163.com", role = c("aut", "cre"))
-Description: The quality evaluation is very important in next genome sequencing. I developed this package. Although there are many tools can do this, learning c++ is my purpose.
+Description: The quality evaluation is very important in next generation sequencing. there are many tools can do this, but learning c++ is my purpose. I developed this package.
 Depends: R (>= 3.5)
 LinkingTo: Rcpp
 Imports:

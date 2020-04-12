@@ -2,9 +2,9 @@
 
 # rfastqQC: The quality evaluation
 
-The quality evaluation is very important in next genome sequencing. I
-developed this package. Although there are many tools can do this,
-learning c++ is my purpose.
+The quality evaluation is very important in next generation sequencing.
+there are many tools can do this, but learning c++ is my purpose. I
+developed this package.
 
 ## :writing\_hand: Authors
 
