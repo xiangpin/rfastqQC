@@ -1,0 +1,40 @@
+---
+output:
+  md_document:
+    variant: gfm
+html_preview: false
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# rfastqQC: The quality evaluation
+
+```{r, echo=FALSE, results="hide", message=FALSE}
+Biocpkg <- function (pkg) {
+    sprintf("[%s](http://bioconductor.org/packages/%s)", pkg, pkg)
+}
+```
+
+```{r comment="", echo=FALSE, results='asis'}
+cat(packageDescription('rfastqQC')$Description)
+```
+
+## :writing_hand: Authors
+
+[Shuangbin Xu](https://github.com/xiangpin)
+
+School of Basic Medical Sciences, Southern Medical University
+
+## :arrow_double_down: Installation
+
+The development version from github:
+
+```r
+if (!requireNamespace("remotes", quietly=TRUE))
+    install.packages("remotes")
+remotes::install_github("xiangpin/rfastqQC")
+```
+
+## :sparkling_heart: Contributing
+
+We welcome any contributions! Please note that the 'rfastqQC' project is released with a [Contributor Code of Conduct](CONDUCT.md). By contributing to this project, you agree to abide by its terms.
