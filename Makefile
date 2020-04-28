@@ -43,3 +43,7 @@ bioccheck:
 clean:
 	cd ..;\
 	$(RM) -r $(PKGNAME).Rcheck/
+
+clean2:
+	cd ..;\
+	$(RM) $(PKGNAME)_$(PKGVERS).tar.gz
