@@ -13,4 +13,4 @@ URL: https://github.com/xiangpin/rfastqQC/
 BugReports: https://github.com/xiangpin/rfastqQC/issues
 ByteCompile: true
 LazyData: false
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0
