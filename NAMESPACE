@@ -2,4 +2,4 @@
 
 export(StatRead)
 importFrom(Rcpp,sourceCpp)
-useDynLib(rfastqQC)
+useDynLib(rfastqQC, .registration = TRUE)
